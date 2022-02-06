@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Automated Tests" tests="1" failures="0" errors="0" time="24.086">
+  <testsuite name="Go to Url" errors="0" failures="0" skipped="0" timestamp="2022-02-06T10:25:47" time="24.021" tests="1">
+    <testcase classname="Go to Url" name="Sign up" time="23.282">
+    </testcase>
+  </testsuite>
+</testsuites>

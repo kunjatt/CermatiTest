@@ -1,0 +1,41 @@
+{
+  "name": "cermatitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./__tests__/signUp.js --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^25.0.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "chai": "^4.2.0",
+    "chai-sorted": "^0.2.0",
+    "dotenv": "^6.1.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^26.6.3",
+    "jest-cli": "^24.8.0",
+    "jest-expect-message": "^1.0.2",
+    "jest-html-reporters": "^1.0.8",
+    "jest-json-schema": "^2.1.0",
+    "jest-junit": "^12.0.0"
+  },
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "puppeteer": "^7.1.0",
+    "randomstring": "^1.1.5",
+    "shelljs": "^0.8.3",
+    "supertest": "^3.3.0",
+    "write-json-file": "^4.2.0"
+  }
+}
